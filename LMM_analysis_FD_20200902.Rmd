@@ -17,7 +17,7 @@ editor_options:
 knitr::opts_chunk$set(echo = TRUE)
 
 rm(list=ls())
-setwd("/Users/Daniel/CloudStation/Arbeit/03_Allgemeine Psychologie/2020/Git_SMLP2020/")
+setwd("/Users/Daniel/CloudStation/Arbeit/03_Allgemeine Psychologie/2020/Git_SMLP2020_Backhaus/SMLP2020/")
 
 set.seed(123)
 
@@ -53,8 +53,11 @@ Define DV
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 
-Filename<-"/Users/Daniel/CloudStation/Arbeit/03_Allgemeine Psychologie/2020/Git_SMLP2020/DataImageFix.rda"
+Filename<-"./DataImageFix.rda"
 load(Filename)#Data.Image.Fix
+
+Filename<-"./DataImageSac.rda"
+load(Filename)#Data.Image.Sac
 
 #Data.Image.Fix<-Data.Image %>% 
 #  filter(MBody==2, Fix==1, eventchange==1)
