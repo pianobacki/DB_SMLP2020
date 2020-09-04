@@ -234,7 +234,7 @@ print(summary(lmm), corr=FALSE)
 
 QUESTION3:
 
-Is a difference with this small effectsize reproducable or random?
+Is a difference with this small effectsize reproducible or random?
 How to power calculate that? In JULIA?
 
 
